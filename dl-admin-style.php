@@ -37,7 +37,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 define('DL_ADMIN_STYLES_VERSION', '0.0.4');
 define('DL_ADMIN_STYLES_FILE', __FILE__);
 
-add_action('init', function () {
+add_action('plugins_loaded', function () {
 
     load_plugin_textdomain('dl-admin-styles', false, dirname(plugin_basename(__FILE__)) . '/languages');
 
