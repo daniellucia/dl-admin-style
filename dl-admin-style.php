@@ -6,7 +6,7 @@
  * Version: 0.0.4
  * Author: Daniel Lúcia
  * Author URI: http://www.daniellucia.es
- * textdomain: dl-admin-style
+ * textdomain: dl-admin-styles
   * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
