@@ -289,3 +289,24 @@ table.widefat {
 #adminmenu li.menu-top.wp-menu-open {
     padding: 0 10px;
 }
+
+/* ==== FORM ==== */
+#minor-publishing-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#minor-publishing-actions>div {
+    flex: 1;
+}
+
+#minor-publishing-actions input, #minor-publishing-actions a.button {
+    font-size: 11px;
+    padding: 0 16px;
+    width: 100%;
+}
+
+#minor-publishing-actions .clear {
+    display: none;
+}
